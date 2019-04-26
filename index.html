@@ -1,95 +1,199 @@
-
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>The Study Log</title>
-    <link rev='made' href='mailto:nikola.s@ucla.edu'>
-  </head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {box-sizing: border-box}
+  
+  #contentpane {
+  border-top: 2px #536895;
+  margin-top:100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+  padding: 0px;
+  min-height:300px;
+}
+/* Set height of body and the document to 100% */
+  body, html {
+  font-family:  verdana, ariel, helvetica;
+  font-color: black;
+  height: 100%;
+  margin-top: 0px;
+}
 
-  <body>
-    <p><font size="6"><b>The Study Log</b></font></br>
-      <font size="4">by <i>Nikola Samardzic</i></font></p>
-    <p>Support <a href="https://www.hrw.org/">Human Rights Watch</a>!
-    <h2>Timeline</h2>
-    <ul>
-      <li>Guest at Human Rights Watch's Voices for Justice Annual Dinner,
-        Los Angeles (11/15/17)</li>
-      <li>Hosted <a href="photo/SenBrown.JPG">fundraising event for Senator Sherrod Brown </a> 02/22/18</li>
-      <li>Will be working with <a href ="https://www.risksciences.ucla.edu/">UCLA Risk Science Institute</a></li>
-      <li>Human Rights Watch Southern California hosts HRW  executive director Kenneth Roth (03/08/19). <a href="photo/rica.JPEG">Picture with Rica</a></li>
-      <li>Went to lunch with Human Rights Watch's Jeff Lyons. Talked about satellite surveillance of human rights violations (03/20/18). Human Rights Watch has received $1,000,000 donation from <a href="https://www.planet.com/">planet</a> and is putting sattelite images to work to spot human rights violations across the globe.</li>      
-      <li>Volunteered at the openning ceremony of the opening of UCLA School
-      of Engineering's Engineering VI building on 03/17/18.</li>
-      <li>I made my mom post her journal and pictures that she made during
-        her trip to Africa in 1989. Here is the
-        <a href="https://africkidnevnik.wordpress.com">link</a>.</li>
-    </ul>
-    <h2>Computer Science</h2>
-    <li>My <a href="math_171_lecture_notes.pdf"> complete lecture
-    notes</a> for Math 171.</li>
-    <li>My  <a href="cs_289_lecture_notes.pdf">complete lecture notes</a> and <a href="scribe.pdf">scribe notes</a> on randomized communication complexity and the discrepancy method. Part of <a href="http://web.cs.ucla.edu/~sherstov/teaching/2018-spring/">Prof. Sherstov's CS 289</a> graduate course on Communication Complexity. Also, midterm <a href="CS289/midterm.pdf"> problems</a> and <a href="CS289/CS 289 Midterm.pdf">my solutions</a>; as well as final <a href="CS289/final.pdf"> problems</a> and <a href="CS289/CS 289 Final.pdf">my solutions</a>.</li>
-      <li><a href="CSM146/index.html">My Machine Learning class homework (UCLA CSM146)</a></li>
-      <li><a href="CS118-notes/index.html"> Notes on Computer Networking</a></li>
-      <li><a href="CSM146notes.pdf"> Notes on Machine Learning</a></li>      
-      <li><a href="CS111/index.html"> Notes on Operating Systems</a></li>      
-      <li><a href="CS130/index.html">Notes on Software Engineering</a></li>
-      <li>Notes on programming languages: <a href="cs131part1.pdf">part I</a>, <a href="cs131part2.pdf">part II</a></li>
-    <li>Created Kanji Image to Hiragana text translation website. Try it out on computer or phone: <a href="https://infinite-taiga-51262.herokuapp.com/">Launch in browser</a>. <a href="https://github.com/Zhao-Weng/KanjiApp">Source code</a>. <a href="KanjiReport.pdf">Documentation</a>. Big thanks to Keith Stevens of Google for helping us develop the app.</li>
-      <li>TCP in the application layer: <a href="https://github.com/n-samar/project2">GitHub Repo</a></li>
-      <h2>Work Experience</h2>
-      <ul>
-        <li>Research at prof. Jason Cong's <a href="http://vast.cs.ucla.edu/people/faculty/jason-cong">VAST Lab</a> (April 2018-Present)</li>        
-        <li>SpaceX - Software Engineering Intern (06/26/2017-01/2018)</li>
-        <li>Goldman Sachs - <a href="https://news.efinancialcareers.com/us-en/301350/goldman-building-new-rd-engineering-group-hiring-ai-team">Research & Development</a>: Financial Modeling, Software Engineering (Summer 2018)</li>
-        <li><a href ="https://www.risksciences.ucla.edu/">UCLA Risk Institute Intern</a> (Collaboration with JPL, NASA)</li>
-        <li>UCLA Mathematics Department: Math Tutor (2016-2017)</li>
-        <li>UCLA Electrical Engineering Department: Assistant to Prof. Suhas Diggavi (2016-01/2017)</li>
-      </ul>
-      
-      <h2>Notes</h2>
-      <ul>
-        <li><a href="site/JMM.pdf">...on Java Memory Manager</a></li>
-        <li><a href="site/asyncio.pdf">...Python's asyncio library</a></li>
-        <li><a href="site/crowd_counting.pdf">...on applications of machine learning to crowd counting</a></li>
-        <li><a href="site/pagerank.pdf">...on Google's PageRank</a></li>
-        <li><a href="site/rocket_engines.pdf">...on Liquid Propellant Rocket Engines</a></li>
-        <li><a href="site/maturski.pdf">...on Markov Chains (in Serbian)</a></li>
-        <li><a href="site/smashing">...on exploiting stack overflow faults in C</a></li>
-       <li><a href="site/taylor.pdf">...on analogy between Fourier transform and Taylor polynomial</a></li>
-      </ul>
-      <h2>Reading</h2>
-      <ul>
-      <li><i>The 4-Hour Work-Week.</i> </li>      
-      <li><i>Straight from the Gut.</i>Welch, Jack</li>
-      <li><i>Dictator's Handbook.</i>de Mesquita, Smith</li>
-      <li><i>The Grid.</i> Bakke, Gretchen</li>
-      <li><a href="triggers/triggers.html"><i>Triggers.</i></a> Goldsmith, Marshall</li>
-      <li><a href="GTD.pdf"><i>Getting Things Done.</i></a> Alen, David</li>
-      <li><a href="CS118-notes/index.html"><i>Computer Networking.</i></a> Kurose, Ross</li>
-      <li><a href="CS130/index.html"><i>Code Complete 2.</i></a> McConnel</li>
-      <li><a href="CSM146notes.pdf"><i>Pattern Recognition and Machine Learning.</i></a> Bishop, Christopher</li>
-      <li><i>Alive.</i> Reed</li>
-      <li><i>Liar's Poker.</i> Lewis</li>
-      <li><i>Seven Habits of Highly Effective People.</i> Covey</li>
-      <li><i>Weapons of Math Destruction.</i> O'Neil</li>
-      <li><i>Thinking Fast and Slow.</i> Kahneman</li>
-      <li><i>Computer Systems: A Programmer's Perspective.</i> Bryant</li>
-      <li><i>Give Me Liberty.</i></li>
-      <li><a href="CS130/index.html"><i>Software Engineering.</i></a> Sommerville</li>
-      <li><i>Power Networking.</i> Fisher, Vilas</li>
-      <li><i>Never Eat Alone.</i> Ferrazzi</li>
-      <li><i>Our Final Invention.</i> Barrat</li>
-      <li><i>Guns, Germs, and Steel.</i> Diamond</li>
-      <li><i>How to Be Rich.</i> Getty</li>
-      <li><i>Straight from the Gut.</i> Welch</li>
-      <li><i>How to be Miserable.</i> Paterson</li>                  
-    </ul>
-    <hr>
-      <address>
-        &copy; 2018 Nikola Samardzic
-        <a href='mailto:nikola.s@ucla.edu'>&lt;nikola.s@ucla.edu&gt;</a>.
-        </address>
-  </body>
-</html>
+/* Style tab links */
+  .tablink {
+  font-family: helvetica;
+  background-color: #536895;
+  color: #ffffff;
+  border-radius: 2px;
+  float: left;
+  border-bottom: solid 1px #dab600;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  font-size: 15px;
+  width: 90px;
+  margin-left: 5px;
+  height: 28px;
+}
+
+.tablink:hover {
+  background-color: lightblue;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  border: 2px solid #dab600;
+  background-color: white;
+  border-radius: 5px;  
+  color: black;
+  display: none;
+  padding: 10px 10px;
+  margin-top: 44px;
+  min-height: 300px;
+}
+
+
+</style>
+</head>
+<body>
+<h2 style="margin-left: 5px">Nikola Samardzic</h2>
+<p style="margin-left: 5px; margin-top: -17px"><i>nikola.s@ucla.edu</i></p>
+<button class="tablink" onclick="openPage('Home', this, '#dab600')">Home</button>
+<button class="tablink" onclick="openPage('Awards', this,
+'#dab600')">Awards</button>
+<button class="tablink" onclick="openPage('Coursework', this, '#dab600')" id="defaultOpen">Coursework</button>
+<button class="tablink" onclick="openPage('Contact', this, '#dab600')">Contact</button>
+
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <table border="0" cellpadding="0">
+<tr>
+	<td width="500px" valign="top" style="text-align:left;
+      line-height:140%">
+      <small>
+		I am a UCLA Computer Science 3rd year Undergraduate working in
+      Prof. Jason Cong's Lab. My research is currently focused on
+      sorting in hardware and on Field Programmable Gate Arrays. You
+      can follow my research on <a href="https://github.com/n-samar/research_helpers">Github</a>.
+       </small>
+	</td>
+	<td width="60px"></td>
+	<td width="100px" valign="top"> <img width="130px" src="./nikola.png"></td>
+</tr>
+</table>
+<h4>Papers</h4>
+<ul>
+  <li><small>Hopefully coming soon</small></li>
+</ul>
+
+</div>
+
+<div id="Awards" class="tabcontent">
+  <h3>Awards and Grants</h3>
+  <ul>
+    <li style="font-size: 10pt"><i>National Science Foundation Grant
+  2018-2019 ($8,000).</i> Received for
+  research in Prof. Jason Cong's VAST lab during the 2018-19 academic
+  year. This grant is part of the Research Experience for
+    Undergraduates Program (REU).</li>
+    <br/>
+    <li style="font-size: 10pt"><i>National Science Foundation Grant
+  Summer 2019 ($8,000).</i> Received for
+    research in Prof. Jason Cong's VAST lab during Summer 2019. This
+  grant is part of the Research Experience for Undergraduates Program
+  (REU).</li> <br/>
+    <li style="font-size: 10pt"><i>UCLA Achievement Scholarship 2016-Present ($10,000 per
+  year).</i> Merit-based. 1% of
+  admitted applicants receive the scholarship. From UCLA
+  website: UCLA Achievement Scholarship is offered on the basis of
+  academic excellence and financial need to highest ranked students
+    who are identified during the admissions process.</li><br/>
+    <li style="font-size: 10pt"><i>Norton Rodman Endowed Scholarship 2016-Present ($4,500 per year).</i> Merit-based. Two
+  recipients per year withing the School of Engineering. I received
+  the scholarship for three consecutive years.</li> <br/>
+    <li style="font-size: 10pt"><i>UCLA Womens' Faculty Club Scholarship 2018-19 ($3,000).</i> Merit-based
+  campus-wide scholarship for undergraduates.</li><br/>
+    <li style="font-size: 10pt"><i>M & F Simpson Scholarship 2017-Present ($6,400 per year).</i>Part of the UCLA Achievement Scholarship.</li><br/>
+  </ul>
+</div>
+
+
+<div id="Coursework" class="tabcontent">
+  <h3>Coursework</h3>
+  <small>
+  <ul>
+    <li>Operating Systems (CS 111) with Prof. Peter Reiher. (<a
+    href="./CS111/index.html">notes</a>)</li>
+   <li>Programming Languages (CS 131) with Prof. Paul Eggert. (<a
+  href="./cs131part1.pdf">notes I</a>, <a
+  href="./cs131part2.pdf">notes II</a>)</li>    
+    <li>Communication Complexity (CS 289 - Graduate) with
+  Prof. Alexander Sherstov (<a href="./scribe.pdf">scribe notes</a>, <a
+  href="./CS 289 Final.pdf">solutions</a>; final exam: <a href="./final.pdf">problems</a>, <a
+  href="./CS 289 Final.pdf">solutions</a>; midterm exam: <a href="./midterm.pdf">problems</a>, <a
+    href="./CS 289 Midterm.pdf">solutions</a>)</li>
+    <li>Complexity Theory (CS 281 - Graduate) with Prof. Alexander
+  Sherstov (<a href="./cs281a_notes.pdf">notes</a>, <a
+  href="./cs281a_midterm.pdf">midterm</a>, <a
+    href="./cs281a_midterm.pdf">final</a>)</li>
+    <li>Hardware Accelerators (CS 259 - Graduate) with Prof. Jason Cong (<a href="./cs259_present.pdf">presentation</a>)</li>    
+    <li>Computer Networking (CS 118) with Prof. Songwu Lu. (<a
+    href="./CS118-notes/'CS 118.html'">notes</a>)</li>
+    <li>Software Engineering (CS 130) with Prof. Paul Eggert (<a
+    href="./CS130/index.html">notes</a>, <a
+    href="./CS130/KanjiReport.pdf">project report</a>)
+    <li>Machine Learning (CS M146) with Prof. Kai-Wei Chang (<a
+    href="./CSM146notes.pdf">notes</a>)</li>
+    <li>Algebra II (Math 110B Honors) with Prof. David Gieseker (<a
+    href="./math110bh_notes.pdf">notes</a>, <a
+    href="./math110bh_midterm.pdf">midterm solutions</a>)</li>
+    <li>Analysis II (Math 131B Honors) with Prof. Monica Visan (<a
+    href="math131bh_notes.pdf">notes</a>)</li>
+    <li>Complex Analysis (Math 132 Honors) with Prof. Jiajun Tong (<a
+    href="math132h_notes.pdf">notes</a>)</li>
+    <li>Analysis I (Math 131A Honors) with Prof. Laura Cladek (<a
+    href="math131ah_notes.pdf">notes</a>)</li>
+    <li>Dynamical Systems and Chaos (Math 134) with Prof. Leif Zinn-Bjorkman (<a
+    href="math134_notes.pdf">notes</a>)</li>    
+    <li>Stochastic Processes (Math 171) with Prof. Palina Salanevich
+    (<a href="./math_171_lecture_notes.pdf">notes</a>)</li>
+  </ul>
+  </small>
+</div>
+
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p><small>I am at UCLA Engineering 6, Lab 468. You can also reach me
+  by email at <i>nikola.s@ucla.edu</i>.</small></p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
