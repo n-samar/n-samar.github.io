@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Nikola Samardzic</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Nikola Samardzic</h1>
+	<img src="greece.jpg"/>
+        <p class="view">nikola.s@ucla.edu</p>
+
+	<h3>Contact</h3>
+	<p>
+	  <small>
+	    I am at UCLA Engineering 6, Lab 468. You can also reach me
+	    by email at <i>nikola.s@ucla.edu</i>.
+	  </small>
+	</p>
+      </header>
+      <section>
+
+        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+
+        <p>
+	  I am a UCLA Computer Science 4th year undergraduate working in
+	  Prof. Jason Cong's Lab. My research is currently focused on
+	  sorting in hardware and on Field Programmable Gate Arrays. You
+	  can follow my research on
+	  <a href="https://github.com/n-samar/research_helpers">Github</a>.
+	</p>
+
+	<h4>Preprints</h4>
+	<ul>
+	  <li>
+	      Current research (<a href="./write_up.pdf">write-up
+		of results</a>): When will theoretically optimal
+	      parallel algorithms outperform today's datacenter algorithms?
+	      Which theoretical metrics are most relevant for real-world
+	      computer architecture?
+	  </li>
+	</ul>	
+	<h4>Papers</h4>
+	<ul>
+	  <li>August 2019: First author submission to High-Performance Computer Architecture (HPCA) Conference. Paper will be available here upon review from committee. Implementation can be found <a href="https://github.com/n-samar/research_helpers">here</a>.</li>
+	</ul>		
+      </section>
+      <footer>
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
