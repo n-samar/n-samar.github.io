@@ -1,0 +1,5 @@
+content: '&copy; Nikola Samardzic. All rights reserved.'
+links:
+  - text: Made with Stackbit Vanilla
+    url: 'https://github.com/stackbithq/stackbit-theme-vanilla'
+    new_window: true

@@ -1,0 +1,64 @@
+a,
+button,
+.text-link {
+
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+    &:visited,
+    &:focus,
+    &:hover {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none;
+        border: none;
+    }
+
+    
+    &:not(.logo):not(.nav-link) {
+        font-weight: 400;
+        position: relative;
+        &.passive {
+            &:after {opacity: 0;}
+            &:hover:after {opacity: 1;}
+        }
+
+        &:after {
+            content: '';
+            height: 4px;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            opacity: .5;
+            z-index: -1;
+        }
+
+        &:hover,
+        &:focus {
+            &:after {
+                bottom: 0;
+		position: absolute;
+                background: transparent;
+		color: #0000EE; 
+                opacity: 1;
+                height: 2px;
+            }
+        }
+    }
+}
+
+.subtle-link {
+    font-size: inherit;
+    font-weight: 100;
+    opacity: 0.5;
+
+    &:after {
+        display: none;
+    }
+}
+
+a.nav-link {
+    color: #595959;
+}

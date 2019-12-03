@@ -1,0 +1,14 @@
+---
+title: Posts
+sections:
+  - title: Recent Posts
+    section_id: posts
+    num_posts_displayed: 0
+    component: postlist.html
+    type: postlist
+menus:
+  main:
+    title: Posts
+    weight: 2
+layout: home
+---
