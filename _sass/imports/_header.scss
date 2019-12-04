@@ -23,6 +23,7 @@
     nav {
         display: flex;
         align-items: stretch;
+	font-size: 1.3rem;
 
         @media screen and (max-width: $tablet) {
             width: 100%;
@@ -37,7 +38,6 @@
         flex-direction: column;
         justify-content: center;
         flex: 1 0;
-        font-weight: $bold;
         line-height: 1rem;
         text-align: center;
         padding-left: 1rem;
