@@ -1,1 +1,9 @@
-{}
+docs:
+  - title: "Home"
+    url: "/index.html"
+
+  - title: "Posts"
+    url: "/blog/index.html"
+
+  - title: "Contact"
+    url: "/contact/index.html"

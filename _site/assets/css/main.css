@@ -520,6 +520,9 @@ button,
 a.nav-link {
   color: #595959; }
 
+a.nav-link:hover {
+  color: purple; }
+
 /*partial styles*/
 .header {
   margin-top: 0.5rem;
