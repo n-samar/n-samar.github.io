@@ -2,8 +2,8 @@
 title: Posts
 sections:
   - title: Recent Posts
-    section_id: posts
-    num_posts_displayed: 0
+    section_id: posts_rec
+    num_posts_displayed: 6
     component: postlist.html
     type: postlist
 menus:

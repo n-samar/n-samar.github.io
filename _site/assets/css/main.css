@@ -522,6 +522,7 @@ a.nav-link {
 
 /*partial styles*/
 .header {
+  margin-top: 0.5rem;
   position: relative;
   display: flex;
   min-height: 1rem;

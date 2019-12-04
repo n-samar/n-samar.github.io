@@ -1,4 +1,4 @@
-<!-- Posts
+<!-- Posts -->
 <section id="{{ include.section.section_id }}" class="posts">
     {% assign slice_length = include.section.num_posts_displayed | minus: 0 %}
     {% assign display_posts = '/posts' | get_pages | slice: 0, slice_length %}
@@ -16,15 +16,4 @@
         </div>
     </a>
     {% endfor %}
-</section>
--->
-
-<section id="{{ include.section.section_id }}" class="posts">
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
 </section>
