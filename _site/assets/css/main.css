@@ -531,10 +531,8 @@ a.nav-link:hover {
   min-height: 1rem;
   justify-content: space-between;
   align-items: stretch;
-  bottom: 5px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-  margin-bottom: 0.5rem;
-  height: 43px; }
+  margin-bottom: 0.5rem; }
   .header .logo {
     color: #595959;
     font-size: 1.5rem;
