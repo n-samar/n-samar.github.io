@@ -1,8 +1,8 @@
 ---
-title: Home
+title:
 sections:
-  - title: A Cat
-    section_id: cat
+  - title: Portrait
+    section_id: portrait
     type: textimageblock
     component: text_image_block.html
     text: >-
