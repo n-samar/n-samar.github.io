@@ -29,7 +29,7 @@ sections:
 
 menus:
   main:
-    title: Home
+    title: 
     weight: 1
 layout: home
 ---
