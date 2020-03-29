@@ -23,7 +23,7 @@ sections:
       * Bonsai: High-Performance Adaptive Merge Tree Sorting  
         __Nikola Samardzic\*__, Weikang Qiao\*,
         Vaibhav Aggarwal, M. C. Frank Chang, Jason Cong (*co-first
-        author)
+        author)  
         International Symposium on Computer Architecture (ISCA), 2020
 
 
