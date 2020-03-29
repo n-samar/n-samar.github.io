@@ -20,13 +20,11 @@ sections:
 
       ### Publications
 
-      * A Method for Translating PRAM-Optimal Algorithms to
-        Interconnect-Optimal Circuits \[[pdf](https://n-samar.github.io/write_up.pdf)\]  
-        __Nikola Samardzic__, Jason Cong
       * Bonsai: High-Performance Adaptive Merge Tree Sorting  
         __Nikola Samardzic\*__, Weikang Qiao\*,
         Vaibhav Aggarwal, M. C. Frank Chang, Jason Cong (*co-first
         author)
+        International Symposium on Computer Architecture (ISCA), 2020
 
 
 menus:
