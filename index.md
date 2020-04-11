@@ -20,8 +20,8 @@ sections:
 
       ### Preprints
 
-      * A Method for Translating PRAM-optimal Algorithms to AT^2 Interconnect-optimal circuits
-        \\\[[pdf](https://n-samar.github.io/a_method_for_translating_PRAM_optimal_algorithms_to_AT^2_interconnect_optimal_circuits.pdf)\\\]\\\[[slides](https://n-samar.github.io/genereral_optimal_circuit_layouts.pdf)\\\]
+      * A Method for Translating PRAM-optimal Algorithms to AT^2 Interconnect-optimal circuits  
+        \\[[pdf](https://n-samar.github.io/a_method_for_translating_PRAM_optimal_algorithms_to_AT^2_interconnect_optimal_circuits.pdf)\\]\\[[slides](https://n-samar.github.io/general_optimal_circuit_layouts.pdf)\\]
     
       ### Publications
 
