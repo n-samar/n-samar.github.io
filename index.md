@@ -29,7 +29,7 @@ sections:
         __Nikola Samardzic\*__, Weikang Qiao\*,
         Vaibhav Aggarwal, M. C. Frank Chang, Jason Cong (*co-first
         author)  
-        International Symposium on Computer Architecture (ISCA), 2020
+        International Symposium on Computer Architecture (ISCA), 2020  
         \[[pdf](https://www.researchgate.net/profile/Weikang_Qiao/publication/341080049_Bonsai_High-Performance_Adaptive_Merge_Tree_Sorting/links/5eac525792851cb2676a9de0/Bonsai-High-Performance-Adaptive-Merge-Tree-Sorting.pdf)\]\[[video](https://www.dropbox.com/s/b34cyqxuaw2tul0/S3A_P3_Samardzic_Qiao.mp4?dl=0)\]
 
 menus:
