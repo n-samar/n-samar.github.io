@@ -6,11 +6,15 @@ sections:
     type: textimageblock
     component: text_image_block.html
     text: >-
-      I am a UCLA Computer Science 4th year undergraduate working with
-      [Prof. Jason Cong](http://vast.cs.ucla.edu/people/faculty/jason-cong). My
-      research is currently focused on sorting on FPGAs. Here are links to my
+      I am a Ph.D. student at the MIT Computer Science and Artificial
+      Intelligence Lab (CSAIL) co-advised by Prof. Daniel Sanchez and Arvind.
+      I worked with
+      [Prof. Jason Cong](http://vast.cs.ucla.edu/people/faculty/jason-cong)
+      while I was an undergrad at UCLA. My
+      research is in computer architecture and systems. <br/><br/> Here are links to my
       [CV](https://n-samar.github.io/CV.pdf) and
       [Github profile](https://github.com/n-samar).
+      
     image:  images/greece.jpg
   - title: Introduction
     section_id: intro
