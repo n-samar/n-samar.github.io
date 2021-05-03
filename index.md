@@ -9,7 +9,7 @@ sections:
       I am a Ph.D. student at the MIT Computer Science and Artificial
       Intelligence Lab (CSAIL) working with Prof. [Daniel Sanchez](https://people.csail.mit.edu/sanchez/).
       I worked with
-      [Prof. Jason Cong](http://vast.cs.ucla.edu/people/faculty/jason-cong)
+      Prof. [Jason Cong](http://vast.cs.ucla.edu/people/faculty/jason-cong)
       while I was an undergraduate at UCLA. My
       research is in computer architecture. <br/><br/> Here are links to my [Google Scholar](https://scholar.google.com/citations?user=i3JnloMAAAAJ&hl=en), 
       [CV](https://n-samar.github.io/CV.pdf), and
