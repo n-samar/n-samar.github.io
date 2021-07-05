@@ -22,9 +22,4 @@ sections:
     component: content_block.html
     content: >-
 
-menus:
-  main:
-    title: 
-    weight: 1
-layout: home
 ---
