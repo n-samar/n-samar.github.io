@@ -15,7 +15,7 @@ sections:
       [CV](https://n-samar.github.io/CV.pdf), and
       [Github profile](https://github.com/n-samar).
       
-    image:  images/greece.jpg
+    image:  images/me.jpg
   - title: Introduction
     section_id: intro
     type: contentblock
